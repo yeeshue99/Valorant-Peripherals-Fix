@@ -8,7 +8,7 @@ In your registries, you have some values that seem to correspond with the contro
 ## The Fix
 By running the file fix-registries.reg, the registry values will be automatically updated to the correct values. Therefore, it can be run anytime this issue is experienced. As mentioned above, since Valorant Vanguard reverts these values on system refresh, you may start you computer with values that were flipped again, causing you to be unable to log into your computer. As a result, it is strongly recommended to create a link to the registry script, and have this script run on startup. By doing so, the values will always be correct on startup, and you should experience no issues.
 
-## Installation Instructions (HIGHYL RECOMMENDED)
+## Installation Instructions (HIGHLY RECOMMENDED)
 1. Create a shortcut to `fix-registries.reg`.
 2. Right click on the shortcut and click on `properties`.
 3. Copy the entirety of the text in the `target` field.
