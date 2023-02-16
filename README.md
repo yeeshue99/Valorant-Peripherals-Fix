@@ -6,7 +6,14 @@ I have found this cam be related to a software named Interception, but as someon
 In your registries, you have some values that seem to correspond with the control system of your mouse and keyboard. Valorant Vanguard, as a trigger to some unknown inputs, can swap these control registries, resulting in this issue. By simply reverting the registry keys to the correct values, this can be fixed. Since a computer restart seems to fix the registries, it seems like Valorant Vanguard reverts these values properly upon system refresh. This is important, as this fix can cause issues.
 
 ## The Fix
-By running the file fix-registries.reg, the registry values will be automatically updated to the correct values. Therefore, it can be run anytime this issue is experienced. As mentioned above, since Valorant Vanguard reverts these values on system refresh, you may start you computer with values that were flipped again, causing you to be unable to log into your computer. As a result, it is strongly recommended to create a link to the registry script, and have this script run on startup. By doing so, the values will always be correct on startup, and you should experience no issues.
+By running the file `fix-registries.reg`, the registry values will be automatically updated to the correct values. Therefore, it can be run anytime this issue is experienced. As mentioned above, since Valorant Vanguard reverts these values on system refresh, you may start you computer with values that were flipped again, causing you to be unable to log into your computer. As a result, it is strongly recommended to create a link to the registry script, and have this script run on startup. By doing so, the values will always be correct on startup, and you should experience no issues.
+
+## Warning
+Always be careful when running files from the internet. Doubly so for scripts that edit your registry keys. Please download this script directly from the following repository: https://github.com/yeeshue99/Valorant-Peripherals-Fix.
+
+I take no responsibility for any issues that may arise from using this script. Please do not use this script unless you fully understand the risk associated. 
+
+If used improperly, THIS CAN BRICK YOUR COMPUTER. If this happens, it can be fixed by manually by using a windows recovery USB and manually fixing the registry keys.
 
 ## Installation Instructions (HIGHLY RECOMMENDED)
 1. Create a shortcut to `fix-registries.reg`.
